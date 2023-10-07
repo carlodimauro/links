@@ -4,7 +4,10 @@
     <title>Carlo Di Mauro</title>
     <meta charset="utf-8">
     <meta name="Author" Content="Carlo Di Mauro">
-     
+    <!-- Connect Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script> 
+
+
     <style>
      body {
         padding-top: 40px;
@@ -22,14 +25,24 @@
         justify-content: center;
       }
 
-      .social-icons  {
-        color: #fffffe;
-        text-decoration: none;
+      .social-icons{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-around; /* Space icons evenly across the container */
+        align-items: top;
+        text-align: center;
+        
+      }
+      
+      .social-icons span {
+      display: block; /* Make text appear on a new line */
+      padding: 2px;  
+      }
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
         font-family: helvetica;
-
+        margin-bottom: 10px;
       }
 
       .items {
@@ -96,18 +109,18 @@
 
       <div class="social-icons">
         <a href="https://github.com/carlodimauro" target="_blank">
-          GitHub
+          <i class="fa-brands fa-github fa-lg"></i>
+          <span>GitHub</span>
         </a>
-
         <a href="https://www.linkedin.com/in/carlodimauro/" target="_blank">
-          LinkedIn
+          <i class="fa-brands fa-linkedin fa-lg"></i>
+          <span>LinkedIn</span>
         </a>
-
         <a href="https://www.instagram.com/montecarlo89/" target="_blank">
-          Instagram
+          <i class="fa-brands fa-instagram fa-lg"></i>
+          <span>Instagram</span>
         </a>
 
-        
       </div>
 
       <div class="link">
