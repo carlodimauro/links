@@ -9,16 +9,23 @@
      body {
         padding-top: 40px;
         padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
         background-color:#E6E3DC;
       }
     
       .name {
         color: rgba(21, 21, 202, 0.883);
+        display: flex;
+        justify-content: center;
       }
 
-      .social-icons a {
+      .social-icons  {
         color: #fffffe;
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
       }
 
       .items {
@@ -26,11 +33,14 @@
         flex-direction: column;
         gap: 30px;
         max-width: 640px;
+        flex-grow: 1;
       }
 
       .link {
         background-color: #f9bc60;
+        display: flex;
         align-items: center;
+        padding: 5px;
       }
       
       
@@ -42,7 +52,10 @@
         flex-grow: 1;
       }
 
-      
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
 
       .banner-img {
         width: 256px;
