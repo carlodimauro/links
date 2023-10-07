@@ -21,13 +21,23 @@
         text-decoration: none;
       }
 
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+      }
+
       .link {
         background-color: #f9bc60;
+        align-items: center;
       }
-      <! -- This selector targets only <a> elements that are descendants of elements with class link.  -->
+      
+      
       .link a {
         color: #001e1d;
         text-decoration: none;
+        border: thin red solid;
       }
 
 
@@ -46,10 +56,7 @@
       }
 
 
-      .items {
-        display: flex;
-        flex-direction: column;
-      }
+
 
     </style>
 
@@ -57,7 +64,7 @@
 
   <body>
     <div class="items">
-      
+
       <div class="banner">
         <img src="/thumbnails/CarloB2Square.jpg" alt="Carlo Headshot" class="banner-img">
       </div>
@@ -93,7 +100,7 @@
         <img src="https://i.pinimg.com/474x/e1/fc/a4/e1fca41ff30c720e37f80659eede7105.jpg" alt="Thumb" class="thumbnail">
 
         <a target="_blank"
-          href="https://thefutur.com/content/the-ultimate-guide-to-typography">Ultimate Guide to Typography - The Futur/a>
+          href="https://thefutur.com/content/the-ultimate-guide-to-typography"> Ultimate Guide to Typography - The Futur</a>
       </div>
 
       <div class="link">
