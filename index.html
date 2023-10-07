@@ -24,7 +24,7 @@
       .link {
         background-color: #f9bc60;
       }
-
+      <! -- This selector targets only <a> elements that are descendants of elements with class link.  -->
       .link a {
         color: #001e1d;
         text-decoration: none;
@@ -44,55 +44,64 @@
       border-radius: 48px;
       object-fit: cover;
       }
+
+
+      .items {
+        display: flex;
+        flex-direction: column;
+      }
+
     </style>
 
   </head>
 
   <body>
-
-    <div class="banner">
-      <img src="/thumbnails/CarloB2Square.jpg" alt="Carlo Headshot" class="banner-img">
-    </div>
-
-    <div class="name">
-      Carlo Di Mauro
-    </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/carlodimauro" target="_blank">
-        GitHub
-      </a>
-
-      <a href="https://www.linkedin.com/in/carlodimauro/" target="_blank">
-        LinkedIn
-      </a>
-
-      <a href="https://www.instagram.com/montecarlo89/" target="_blank">
-        Instagram
-      </a>
-
+    <div class="items">
       
-    </div>
+      <div class="banner">
+        <img src="/thumbnails/CarloB2Square.jpg" alt="Carlo Headshot" class="banner-img">
+      </div>
 
-    <div class="link">
-      <img
-        src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" alt="Thumb" class="thumbnail">
+      <div class="name">
+        Carlo Di Mauro
+      </div>
 
-      <a target="_blank" href="https://studio-size.com/work/vignelli90/"> Massimo Vignelli 90 Anniversary - Studo Size</a>
-    </div>
+      <div class="social-icons">
+        <a href="https://github.com/carlodimauro" target="_blank">
+          GitHub
+        </a>
 
-    <div class="link">
-      <img src="https://i.pinimg.com/474x/e1/fc/a4/e1fca41ff30c720e37f80659eede7105.jpg" alt="Thumb" class="thumbnail">
+        <a href="https://www.linkedin.com/in/carlodimauro/" target="_blank">
+          LinkedIn
+        </a>
 
-      <a target="_blank"
-        href="https://thefutur.com/content/the-ultimate-guide-to-typography">Ultimate Guide to Typography - The Futur/a>
-    </div>
+        <a href="https://www.instagram.com/montecarlo89/" target="_blank">
+          Instagram
+        </a>
 
-    <div class="link">
-      <img
-        src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" alt="Thumb" class="thumbnail">
+        
+      </div>
 
-      <a target="_blank" href="http://colinmorris.github.io/blog/compound-curse-words"> Compound pejoratives on Reddit — Colin Morris</a>
+      <div class="link">
+        <img
+          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" alt="Thumb" class="thumbnail">
+
+        <a target="_blank" href="https://studio-size.com/work/vignelli90/"> Massimo Vignelli 90 Anniversary - Studo Size</a>
+      </div>
+
+      <div class="link">
+        <img src="https://i.pinimg.com/474x/e1/fc/a4/e1fca41ff30c720e37f80659eede7105.jpg" alt="Thumb" class="thumbnail">
+
+        <a target="_blank"
+          href="https://thefutur.com/content/the-ultimate-guide-to-typography">Ultimate Guide to Typography - The Futur/a>
+      </div>
+
+      <div class="link">
+        <img
+          src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" alt="Thumb" class="thumbnail">
+
+        <a target="_blank" href="http://colinmorris.github.io/blog/compound-curse-words"> Compound pejoratives on Reddit — Colin Morris</a>
+      </div>
     </div>
   </body>
 </html>
